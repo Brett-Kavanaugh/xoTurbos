@@ -15,7 +15,7 @@ password = config['password']
 targets = config['targetUsernames']
 
 #this is so I can dynamically change the endpoint
-endpoint = requests.get("https://www.xosoftware.app/github/instaturbo/endpoint").text.replace("\n", "")
+endpoint = requests.get("https://www.xosoftware.app/github/turbo/endpoint").text.replace("\n", "")
 
 
 def turbo(nam):
